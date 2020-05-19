@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1589747582 source:/home/daniel/Desktop/ParcialLaboratorio/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	<math.h>
+	"Cliente.h"
+	"utn.h"
+
+1589747017 /home/daniel/Desktop/ParcialLaboratorio/Cliente.h
+
+1589748557 source:/home/daniel/Desktop/ParcialLaboratorio/Cliente_Mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+	"Cliente.h"
+	"Mascota.h"
+	"Cliente_Mascota.h"
+
+1589743968 /home/daniel/Desktop/ParcialLaboratorio/Mascota.h
+
+1589746984 source:/home/daniel/Desktop/ParcialLaboratorio/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+	"Cliente.h"
+	"Mascota.h"
+	"Cliente_Mascota.h"
+
+1589671528 /home/daniel/Desktop/ParcialLaboratorio/Cliente_Mascota.h
+
+1589747930 source:/home/daniel/Desktop/ParcialLaboratorio/Mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"Mascota.h"
+	"utn.h"
+	"Cliente.h"
+
+1589748566 source:/home/daniel/Desktop/ParcialLaboratorio/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"Cliente.h"
+	"Mascota.h"
+
+1589732087 /home/daniel/Desktop/ParcialLaboratorio/utn.h
+
+1589890565 source:/home/daniel/Desktop/PrimerParcialLaboratorio/Cliente_Mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+	"Cliente.h"
+	"Mascota.h"
+	"Cliente_Mascota.h"
+
+1589732087 /home/daniel/Desktop/PrimerParcialLaboratorio/utn.h
+
+1589747017 /home/daniel/Desktop/PrimerParcialLaboratorio/Cliente.h
+
+1589889115 /home/daniel/Desktop/PrimerParcialLaboratorio/Mascota.h
+
+1589671528 /home/daniel/Desktop/PrimerParcialLaboratorio/Cliente_Mascota.h
+
+1589746984 source:/home/daniel/Desktop/PrimerParcialLaboratorio/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+	"Cliente.h"
+	"Mascota.h"
+	"Cliente_Mascota.h"
+
+1589890437 source:/home/daniel/Desktop/PrimerParcialLaboratorio/Mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"Mascota.h"
+	"utn.h"
+	"Cliente.h"
+
+1589888643 source:/home/daniel/Desktop/PrimerParcialLaboratorio/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"Cliente.h"
+	"Mascota.h"
+
+1589888691 source:/home/daniel/Desktop/PrimerParcialLaboratorio/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	<math.h>
+	"Cliente.h"
+	"utn.h"
+
