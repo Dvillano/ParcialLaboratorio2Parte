@@ -30,7 +30,7 @@ void mostrarMascotasConClientes(eMascota listaDeMascotas[], int tamArrayMascotas
     int j;
 
     printf("\n--------------------------------LISTA MASCOTAS--------------------------------\n\n");
-    printf("ID\tNOMBRE\tTIPO\t   RAZA\tEDAD\tPESO\tSEXO\tCLIENTE\n");
+    printf("ID\tNOMBRE\tTIPO\t   RAZA\tEDAD\tPESO\tSEXO\tCLIENTE\tPAIS\n");
     for(i=0; i<tamArrayMascotas; i++)
     {
 
@@ -38,7 +38,7 @@ void mostrarMascotasConClientes(eMascota listaDeMascotas[], int tamArrayMascotas
         {
             if(listaDeMascotas[i].idCliente == listaDeClientes[j].idCliente && (listaDeMascotas[i].estado == OCUPADO))
             {
-                printf("%2d %11s %5s %10s %4d %7.2f %7s %10s\n", listaDeMascotas[i].idMascota, listaDeMascotas[i].nombre, listaDeMascotas[i].tipo, listaDeMascotas[i].raza.nombreRaza, listaDeMascotas[i].edad, listaDeMascotas[i].peso, listaDeMascotas[i].sexo, listaDeClientes[j].nombre);
+                printf("%2d %11s %5s %10s %4d %7.2f %7s %10s %s\n", listaDeMascotas[i].idMascota, listaDeMascotas[i].nombre, listaDeMascotas[i].tipo, listaDeMascotas[i].raza.nombreRaza, listaDeMascotas[i].edad, listaDeMascotas[i].peso, listaDeMascotas[i].sexo, listaDeClientes[j].nombre, listaDeMascotas[i].raza.pais);
             }
         }
     }
@@ -150,7 +150,7 @@ void listarMascotasConMasDeTres(eCliente listaDeClientes[], int tamArrayClientes
     int j;
 
     printf("\n---------LISTA DE MASCOTAS CON MAS DE TRES AÑOS---------\n\n");
-    printf("ID\tNOMBRE\tTIPO\t   RAZA\tEDAD\tPESO\tSEXO\tCLIENTE\n");
+    printf("ID\tNOMBRE\tTIPO\t   RAZA\tEDAD\tPESO\tSEXO\tCLIENTE\tPAIS\n");
     //Usamos el mismo codigo de mostrar mascotas con dueño
     for(i=0; i<tamArrayMascotas; i++)
     {
@@ -162,7 +162,7 @@ void listarMascotasConMasDeTres(eCliente listaDeClientes[], int tamArrayClientes
                 if(listaDeMascotas[i].idCliente == listaDeClientes[j].idCliente && (listaDeMascotas[i].estado == OCUPADO))
                 {
 
-                    printf("%2d %11s %5s %10s %4d %7.2f %7s %10s\n", listaDeMascotas[i].idMascota, listaDeMascotas[i].nombre, listaDeMascotas[i].tipo, listaDeMascotas[i].raza.nombreRaza, listaDeMascotas[i].edad, listaDeMascotas[i].peso, listaDeMascotas[i].sexo, listaDeClientes[j].nombre);
+                    printf("%2d %11s %5s %10s %4d %7.2f %7s %10s %s\n", listaDeMascotas[i].idMascota, listaDeMascotas[i].nombre, listaDeMascotas[i].tipo, listaDeMascotas[i].raza.nombreRaza, listaDeMascotas[i].edad, listaDeMascotas[i].peso, listaDeMascotas[i].sexo, listaDeClientes[j].nombre, listaDeMascotas[i].raza.pais);
                 }
             }
         }
