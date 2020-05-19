@@ -21,8 +21,8 @@
 void hardcodearMascotas(eMascota lista[], int tamArray)
 {
     char nombre[11][51] = {"Alex","Firulais","Rocky","Guardian","Pepe","Fifi","Napoleon","Odin","Thor","Buddy","Lucky"};
-    char tipo[11][51] = {"Gato","Gato","Perro","Perro","Gato","Perro","Raro","Perro","Gato","Gato","Perro"};
-    eRaza raza[11] = {{"Siames","Tailandia"},{"Persa","Iran"},{"Bulldog","Inglaterra"},{"Poodle","Francia"},{"Persa","Iran"},{"Pitbull","USA"},{"Iguana","Cuba"},{"Labrador","USA"},{"Siames","Tailandia"},{"Persa","Iran"},{"Bulldog","Inglaterra"}};
+    char tipo[11][51] = {"Gato","Gato","Perro","Perro","Gato","Perro","Raro","Perro","Gato","Gato","Raro"};
+    eRaza raza[11] = {{"Siames","Tailandia"},{"Persa","Iran"},{"Bulldog","Inglaterra"},{"Poodle","Francia"},{"Persa","Iran"},{"Pitbull","USA"},{"Iguana","Cuba"},{"Labrador","USA"},{"Siames","Tailandia"},{"Persa","Iran"},{"Overo","Argentina"}};
     int edad[11] = {11,5,3,4,5,6,8,3,3,6,7};
     float peso[11] = {20,20.5,30,40,40.5,32.5,50.5,42.5,30.2,39.4,15.3};
     char sexo[11][51] = {"m","m","m","m","m","m","m","f","f","f","f"};
